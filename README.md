@@ -4,7 +4,7 @@ Daylist is a personal task planner designed for installation from **Safari > Sha
 
 ## Features
 - Today screen with a week selector, Work/School/Personal tasks and completion progress.
-- Recurring weekday and daily routines. Each day has its own checkmark history, starting on the day you create the routine.
+- Recurring daily, weekday, weekly, and monthly routines. Weekly routines repeat on the weekday they are created; monthly routines repeat on that calendar date. Each occurrence has its own checkmark history.
 - Unscheduled inbox for surprise tasks, plus move-to-today / choose-date / move-to-inbox actions.
 - Month calendar and overdue unfinished one-time tasks on today's screen.
 - On-device storage via `localStorage` and JSON backup export/import.

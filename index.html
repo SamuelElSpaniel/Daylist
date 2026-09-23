@@ -34,9 +34,9 @@
     <header class="sheet-head"><button class="text-btn" type="button" id="cancel-task">Cancel</button><h2 id="task-dialog-title">New task</h2><button class="text-btn save-btn" type="submit">Save</button></header>
     <label for="task-title">Task</label><input id="task-title" name="title" autocomplete="off" maxlength="180" placeholder="What needs to get done?" required>
     <label for="task-category">Category</label><select id="task-category" name="category"><option>Work</option><option>School</option><option>Personal</option></select>
-    <label for="task-repeat">Repeat</label><select id="task-repeat" name="repeat"><option value="none">Doesn't repeat</option><option value="weekdays">Every weekday</option><option value="daily">Every day</option></select>
+    <label for="task-repeat">Repeat</label><select id="task-repeat" name="repeat"><option value="none">Doesn't repeat</option><option value="weekdays">Every weekday</option><option value="daily">Every day</option><option value="weekly">Every week</option><option value="monthly">Every month</option></select>
     <div id="date-setting"><label for="task-date">Schedule</label><select id="task-timing" name="timing"><option value="today">Today</option><option value="pick">Choose a date</option><option value="inbox">Unscheduled — Inbox</option></select><input id="task-date" type="date" name="date" hidden></div>
-    <p class="field-note" id="repeat-note" hidden>Repeating tasks start today and show up on each matching day. Checking one day off won't change the others.</p>
+    <p class="field-note" id="repeat-note" hidden>Repeating tasks start today. Weekly tasks repeat on today's weekday, and monthly tasks repeat on today's date. Checking one occurrence off won't change the others.</p>
     <button type="submit" class="primary-button">Save task</button>
   </form>
 </dialog>
